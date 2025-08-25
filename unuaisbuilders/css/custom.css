@@ -369,8 +369,8 @@ select.form-control{
 	margin-bottom: 15px;
 	z-index: 2;
 }
-.section-title h3:before {
-    filter: invert(78%) sepia(92%) saturate(457%) hue-rotate(2deg);
+/* .section-title h3:before {
+    filter: sepia(100%) saturate(200%) brightness(50%);
 }
 .section-title h3:before{
 	content: '';
@@ -382,7 +382,7 @@ select.form-control{
 	top: 0;
 	background: url(../images/icon-heading.svg) no-repeat left center;
 	z-index: -1;
-}
+} */
 
 .section-title h1,
 .section-title h2{
