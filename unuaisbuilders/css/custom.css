@@ -61,7 +61,10 @@ body{
 	font-family: var(--default-font);
 	color: var(--text-color);
 	line-height: 1.6em;
+	overflow-x: hidden;
+	
 }
+
 
 p{
 	line-height: 1.6em;
@@ -396,7 +399,7 @@ select.form-control{
 
 header.main-header{
 	position: relative;
-	background: var(--white-color);
+	background-color: white;
 	border-radius: 30px;
 	border-bottom: 1px solid transparent;
 	z-index: 1000;
@@ -406,7 +409,8 @@ header.main-header .header-sticky{
 	padding: 25px 0;
 	position: relative;
 	top: 0;
-	z-index: 100;	
+	z-index: 1000;	
+	background-color:white;
 }
 
 header.main-header .header-sticky.hide{
@@ -415,6 +419,7 @@ header.main-header .header-sticky.hide{
 	padding: 15px 0;
 	border-radius: 0;
 	border-bottom: 1px solid #16330010;
+		background-color:white;
 }
 
 header.main-header .header-sticky.active{
@@ -425,7 +430,8 @@ header.main-header .header-sticky.active{
 	border-radius: 0;
 	border-bottom: 1px solid #16330010;
     transform: translateY(0);
-	background: var(--white-color);
+	/* background: var(--white-color); */
+	background-color:white;
 }
 
 .navbar{
@@ -1537,7 +1543,9 @@ footer.footer{
 .footer-about .footer-logo{
 	margin-bottom: 30px;
 }
-
+.footer-logo img{
+	border-radius: 50px;
+}
 .footer-about-content p{
 	color: var(--white-color);
 }
