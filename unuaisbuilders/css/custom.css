@@ -37,6 +37,7 @@
   --primary-color      : #C6A35C;  /*gold*/
   /* --primary-color      : #e7a114b2;   */
   --secondary-color    : #2B2B2B;   /* Charcoal */
+   --overlay-color:rgba(0, 0, 0, 0.35);
   --text-color         : #FFFFFF;   /* White */
   --dark-color         :  #E3B23C;   
   --accent-color       : #E3B23C;   /* Bright Gold */
