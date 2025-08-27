@@ -685,7 +685,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content-body p{
-	color: var(--white-color);
+	color: var(--accent-color);
 }
 
 .hero-content-footer{
