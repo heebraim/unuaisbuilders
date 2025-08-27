@@ -34,10 +34,11 @@
 /************************************/
 
 :root {
-  --primary-color      : #C6A35C;   /* Gold */
+  --primary-color      : #C6A35C;  /*gold*/
+  /* --primary-color      : #e7a114b2;   */
   --secondary-color    : #2B2B2B;   /* Charcoal */
   --text-color         : #FFFFFF;   /* White */
-  --dark-color         :  #E3B23C;   /* Black */
+  --dark-color         :  #E3B23C;   
   --accent-color       : #E3B23C;   /* Bright Gold */
   --muted-gold         : #8C7A4F;   /* Muted Gold */
   --divider-color      : #DDDBDB;   /* Divider */
@@ -1492,10 +1493,12 @@ header.main-header .header-sticky.active{
 /******************************************/
 
 footer.footer{
-	background: var(--primary-color);
+	background: var(--muted-gold);
 	margin: 70px 40px 0;
+	/* margin-top: 20px; */
 	padding: 0 0 80px;
 	border-radius: 20px;
+	color: var(--accent-color);
 }
 
 .newsletter-box{
@@ -1588,8 +1591,8 @@ footer.footer{
 	height: 36px;
 	font-size: 18px;
 	border-radius: 5px;
-	background: var(--accent-color);
-	color: var(--white-color);
+	background: var(--muted-gold);
+	color: var(--accent-color);
 	transition: all 0.3s ease-out;
 }
 
@@ -1616,10 +1619,11 @@ footer.footer{
 	position: absolute;
 	top: 0;
 	left: 0;
+	
 }
 
 .footer-info-box p{
-	color: var(--white-color);
+	color: var(--accent-color);
 	margin-bottom: 0;
 }
 
@@ -1634,7 +1638,7 @@ footer.footer{
 }
 
 .footer-quick-links ul li a{
-	color: var(--white-color);
+	color: var(--accent-color);
 	position: relative;
 	padding-left: 20px;
 	transition: all 0.3s ease-out;
@@ -1652,11 +1656,12 @@ footer.footer{
 	left: 0;
 	width: 14px;
 	height: 14px;
-	background: url(../images/icon-menu-item.svg) no-repeat left center;
+	/* background: url(../images/icon-menu-item.svg) no-repeat left center; */
+
 }
 
 .footer-appointment .footer-appointment-content p{
-	color: var(--white-color);
+	color: var(--accent-color);
 }
 
 .footer-appointment .footer-appointment-content .btn-default:before{
@@ -1712,7 +1717,7 @@ footer.footer{
 }
 
 .footer-policy-links ul li a{
-	color: var(--text-color);
+	color: #C6A35C;
 	transition: all 0.4s ease-out;
 }
 
@@ -1752,7 +1757,7 @@ footer.footer{
 .page-header-box h1{
 	font-size: 70px;
 	font-weight: 600;
-	color: var(--white-color);
+	color: var(--primary-color);
 }
 
 .page-header-box .breadcrumb{
@@ -1761,7 +1766,7 @@ footer.footer{
 }
 
 .page-header-box ol li.breadcrumb-item{
-	color: var(--white-color);
+	color: var(--primary-color);
 }
 
 .page-header-box ol .breadcrumb-item+.breadcrumb-item::before{
@@ -3103,7 +3108,9 @@ footer.footer{
 	
 	.mega-footer{
 		padding: 0 10px;
+		
 	}
+	
 
 	.footer-about{
 		padding: 0;
