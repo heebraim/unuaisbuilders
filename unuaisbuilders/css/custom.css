@@ -1609,6 +1609,7 @@ footer.footer{
 .footer-contact-info h3,
 .footer-quick-links h3,
 .footer-appointment h3{
+	padding-top: 20px;
 	font-size: 22px;
 	color: var(--black-color);
 	margin-bottom: 30px;
@@ -1679,6 +1680,7 @@ footer.footer{
 }
 
 .footer-copyright-links{
+	background-color: black;
 	padding: 20px 0;
 }
 
