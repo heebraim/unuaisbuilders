@@ -40,6 +40,7 @@
    --overlay-color:rgba(0, 0, 0, 0.35);
   --text-color         : #FFFFFF;   /* White */
   --dark-color         :  #E3B23C;   
+  --black-color         :  black;   
   --accent-color       : #E3B23C;   /* Bright Gold */
   --muted-gold         : #8C7A4F;   /* Muted Gold */
   --divider-color      : #DDDBDB;   /* Divider */
@@ -65,6 +66,9 @@ body{
 	line-height: 1.6em;
 	overflow-x: hidden;
 	
+}
+.gallery-body{
+	color: black;
 }
 
 
@@ -1494,12 +1498,12 @@ header.main-header .header-sticky.active{
 /******************************************/
 
 footer.footer{
-	background: var(--muted-gold);
+	background: var(--primary-color);
 	margin: 70px 40px 0;
 	/* margin-top: 20px; */
 	padding: 0 0 80px;
 	border-radius: 20px;
-	color: var(--accent-color);
+	color: var(--black-color);
 }
 
 .newsletter-box{
@@ -1592,8 +1596,8 @@ footer.footer{
 	height: 36px;
 	font-size: 18px;
 	border-radius: 5px;
-	background: var(--muted-gold);
-	color: var(--accent-color);
+	background: var(--accent-color);
+	color: var(--black-color);
 	transition: all 0.3s ease-out;
 }
 
@@ -1606,7 +1610,7 @@ footer.footer{
 .footer-quick-links h3,
 .footer-appointment h3{
 	font-size: 22px;
-	color: var(--accent-color);
+	color: var(--black-color);
 	margin-bottom: 30px;
 }
 
@@ -1624,8 +1628,9 @@ footer.footer{
 }
 
 .footer-info-box p{
-	color: var(--accent-color);
+	color: var(--black-color);
 	margin-bottom: 0;
+	
 }
 
 .footer-quick-links ul{
@@ -1639,7 +1644,7 @@ footer.footer{
 }
 
 .footer-quick-links ul li a{
-	color: var(--accent-color);
+	color: var(--black-color);
 	position: relative;
 	padding-left: 20px;
 	transition: all 0.3s ease-out;
@@ -1657,12 +1662,12 @@ footer.footer{
 	left: 0;
 	width: 14px;
 	height: 14px;
-	/* background: url(../images/icon-menu-item.svg) no-repeat left center; */
+	background: url(../images/arrow.svg) no-repeat left center;
 
 }
 
 .footer-appointment .footer-appointment-content p{
-	color: var(--accent-color);
+	color: var(--black-color);
 }
 
 .footer-appointment .footer-appointment-content .btn-default:before{
@@ -1682,7 +1687,7 @@ footer.footer{
 }
 
 .footer-policy-links{
-	text-align: right;
+	text-align: center;
 }
 
 .footer-policy-links ul{
@@ -2799,6 +2804,10 @@ footer.footer{
 
 .contact-detail-item p{
 	margin: 0;
+}
+.contact-detail-item a{
+	text-decoration: none;
+	color: white;
 }
 
 .contact-inquiry-box{

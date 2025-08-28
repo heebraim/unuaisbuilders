@@ -32,11 +32,27 @@
     <link href="css/animate.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <style>
+      /* Center gallery items on mobile and control width */
+      @media (max-width: 767px) {
+        .gallery-item {
+          max-width: 350px; /* Adjust as needed for desired width */
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      /* Ensure gallery grid is centered on desktop */
+      .gallery-listings .row {
+        justify-content: center;
+      }
+      /* Adjust gallery item spacing */
+      .gallery-item {
+        margin-bottom: 30px;
+      }
+    </style>
   </head>
   <body class="tt-magic-cursor">
-    <div id="magic-cursor">
-      <div id="ball"></div>
-    </div>
+    <!-- Header remains unchanged -->
     <header class="main-header">
       <div class="header-sticky">
         <nav class="navbar navbar-expand-lg">
@@ -59,11 +75,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="services.html">Services</a>
                 </li>
-                
+               
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
-                <li class="nav-item">
+                 <li class="nav-item">
                   <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
               </ul>
@@ -92,22 +108,23 @@
         </div>
       </div>
     </div>
+    <br><br>
     <div class="gallery-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="gallery-listings">
-              <div class="row">
+              <div class="row justify-content-center">
                 <!-- Gallery Item 1 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-12">
                   <div class="gallery-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="gallery-header">
                       <figure class="image-anime">
-                        <a href="images/placeholder1.jpg" class="gallery-popup">
+                        <a href="images/gallery/gallery1.jpeg" class="gallery-popup">
                           <img
-                            src="images/placeholder1.jpg"
+                            src="images/gallery/gallery1.jpeg"
                             alt="Survey Project"
-                            style="height: 250px; object-fit: cover;"
+                            style="height: 250px; object-fit: cover; width: 100%;"
                           />
                         </a>
                       </figure>
@@ -120,15 +137,15 @@
                   </div>
                 </div>
                 <!-- Gallery Item 2 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-12">
                   <div class="gallery-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="gallery-header">
                       <figure class="image-anime">
-                        <a href="images/placeholder2.jpg" class="gallery-popup">
+                        <a href="images/gallery/gallery2.jpeg" class="gallery-popup">
                           <img
-                            src="images/placeholder2.jpg"
+                            src="images/gallery/gallery2.jpeg"
                             alt="Architectural Design"
-                            style="height: 250px; object-fit: cover;"
+                            style="height: 250px; object-fit: cover; width: 100%;"
                           />
                         </a>
                       </figure>
@@ -136,20 +153,20 @@
                     </div>
                     <div class="gallery-body">
                       <h3>ezDesigns Project</h3>
-                      <p>Sapele, Delta State, Nigeria</p>
+                      <p>Nigeria</p>
                     </div>
                   </div>
                 </div>
                 <!-- Gallery Item 3 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-12">
                   <div class="gallery-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="gallery-header">
                       <figure class="image-anime">
-                        <a href="images/placeholder3.jpg" class="gallery-popup">
+                        <a href="images/gallery/gallery3.jpeg" class="gallery-popup">
                           <img
-                            src="images/placeholder3.jpg"
+                            src="images/gallery/gallery3.jpeg"
                             alt="Construction Project"
-                            style="height: 250px; object-fit: cover;"
+                            style="height: 250px; object-fit: cover; width: 100%;"
                           />
                         </a>
                       </figure>
@@ -162,15 +179,15 @@
                   </div>
                 </div>
                 <!-- Gallery Item 4 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-12">
                   <div class="gallery-item wow fadeInUp" data-wow-delay="1s">
                     <div class="gallery-header">
                       <figure class="image-anime">
-                        <a href="images/placeholder4.jpg" class="gallery-popup">
+                        <a href="images/gallery/gallery4.jpeg" class="gallery-popup">
                           <img
-                            src="images/placeholder4.jpg"
+                            src="images/gallery/gallery4.jpeg"
                             alt="Real Estate Project"
-                            style="height: 250px; object-fit: cover;"
+                            style="height: 250px; object-fit: cover; width: 100%;"
                           />
                         </a>
                       </figure>
@@ -183,15 +200,15 @@
                   </div>
                 </div>
                 <!-- Gallery Item 5 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-12">
                   <div class="gallery-item wow fadeInUp" data-wow-delay="1.25s">
                     <div class="gallery-header">
                       <figure class="image-anime">
-                        <a href="images/placeholder5.jpg" class="gallery-popup">
+                        <a href="images/gallery/gallery5.jpeg" class="gallery-popup">
                           <img
-                            src="images/placeholder5.jpg"
+                            src="images/gallery/gallery5.jpeg"
                             alt="Consultation Project"
-                            style="height: 250px; object-fit: cover;"
+                            style="height: 250px; object-fit: cover; width: 100%;"
                           />
                         </a>
                       </figure>
@@ -204,15 +221,263 @@
                   </div>
                 </div>
                 <!-- Gallery Item 6 -->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-12">
                   <div class="gallery-item wow fadeInUp" data-wow-delay="1.5s">
                     <div class="gallery-header">
                       <figure class="image-anime">
-                        <a href="images/placeholder6.jpg" class="gallery-popup">
+                        <a href="images/gallery/gallery6.jpeg" class="gallery-popup">
                           <img
-                            src="images/placeholder6.jpg"
+                            src="images/gallery/gallery6.jpeg"
                             alt="Site Development Project"
-                            style="height: 250px; object-fit: cover;"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 7 -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="1.75s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery7.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery7.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 8 -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="2s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery8.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery8.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 9 -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="2.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery9.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery9.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 10 -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="2.5s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery10.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery10.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 11 -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="2.75s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery11.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery11.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 12 -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery12.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery12.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Gallery Item 13 (Duplicate corrected) -->
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="images/gallery/gallery13.jpeg" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery13.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery14.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery15.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery16.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery9.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
+                          />
+                        </a>
+                      </figure>
+                      <span class="gallery-label" style="background-color: #c6a35c;">Development</span>
+                    </div>
+                    <div class="gallery-body">
+                      <h3>Site Development Project</h3>
+                      <p>Sapele, Delta State, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                  <div class="gallery-item wow fadeInUp" data-wow-delay="3.25s">
+                    <div class="gallery-header">
+                      <figure class="image-anime">
+                        <a href="" class="gallery-popup">
+                          <img
+                            src="images/gallery/gallery1.jpeg"
+                            alt="Site Development Project"
+                            style="height: 250px; object-fit: cover; width: 100%;"
                           />
                         </a>
                       </figure>
@@ -225,36 +490,15 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div
-                    class="post-pagination wow fadeInUp"
-                    data-wow-delay="1.75s"
-                  >
-                    <ul class="pagination">
-                      <li>
-                        <a href="#"
-                          ><i class="fa-solid fa-arrow-left-long"></i
-                        ></a>
-                      </li>
-                      <li><a href="#">1</a></li>
-                      <li class="active"><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li>
-                        <a href="#"
-                          ><i class="fa-solid fa-arrow-right-long"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="footer">
+    
+     <footer class="footer">
+     
       <div class="mega-footer">
         <div class="container">
           <div class="row">
@@ -291,6 +535,9 @@
                 <h3>Contact Info</h3>
                 <div class="footer-contact-box">
                   <div class="footer-info-box">
+                    <div class="icon-box">
+                      <img src="images/location.svg" alt="Location" />
+                    </div>
                     <p>
                       No 6 Baptist Church Street, After Emmanuel Street,
                       Ajajigwo, Ogorode, Sapele, Delta State<br />Office: No 4
@@ -298,11 +545,17 @@
                     </p>
                   </div>
                   <div class="footer-info-box">
+                    <div class="icon-box">
+                      <img src="images/call.svg" alt="Phone"/>
+                    </div>
                     <p>
                       (+234)806 048 1333, (+234)807 630 3169, (+234)901 986 2554
                     </p>
                   </div>
                   <div class="footer-info-box">
+                    <div class="icon-box">
+                      <img src="images/email.svg" alt="Email" />
+                    </div>
                     <p>unuaisbuilders@gmail.com</p>
                   </div>
                 </div>
@@ -315,7 +568,6 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="services.html">Services</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
                   <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
@@ -328,9 +580,9 @@
                     Book an Appointment with our Experts in Survey, Design,
                     Construction, and Real Estate.
                   </p>
-                  <a href="contact.html" class="btn-default" style="color:gold; background-color:goldenrod;">
-                    Book Appointment
-                  </a>
+                  <a href="contact.html" class="btn-default"
+                    >Book Appointment</a
+                  >
                 </div>
               </div>
             </div>
@@ -341,17 +593,10 @@
     <div class="footer-copyright-links">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="footer-copyright" style="color:#c6a35c;">
-              <p>Copyright &copy; 2025. All rights reserved.</p>
-            </div>
-          </div>
-          <div class="col-md-6">
+          <div class="">
             <div class="footer-policy-links">
-              <ul>
-                <li><a href="#">Privacy & Policy</a></li>
-                <li><a href="#">Terms & Condition</a></li>
-              </ul>
+              <p><a href="https://zentedge.com" style="color: black;">Designed by Zentedge Solutions Limited @zentedge.com</a></p>
+              <p style="color: black;">Copyright &copy; 2025. All rights reserved.</p>
             </div>
           </div>
         </div>
@@ -366,7 +611,7 @@
         btnColor: "#C6A35C",
         ctaText: "WhatsApp Us",
         cornerRadius: 40,
-        marginBottom: 20,
+        marginBottom: 80,
         marginLeft: 20,
         marginRight: 20,
         btnPosition: "right",
